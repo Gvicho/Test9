@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="heading">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="heading1">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="location">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

@@ -21,6 +21,7 @@ class PagerAdapter: ListAdapter<TouristicPlaceUI, PagerAdapter.HomeImageViewHold
                 Glide.with(itemView.context)
                     .load(touristicPlaceUI.cover)
                     .into(coverImage)
+                tvLocation.text = touristicPlaceUI.location
             }
 
         }
